@@ -1,7 +1,7 @@
 const { network } = require("hardhat")
 const { ethers } = require("hardhat")
 
-const DAI_INITIAL_PRICE = ethers.utils.parseEther("0.001") // 1 DAI = $1 & ETH = $1,000
+const DAI_INITIAL_PRIC = ethers.utils.parseEther("0.001") // 1 DAI = $1 & ETH = $1,000
 const BTC_INITIAL_PRICE = ethers.utils.parseEther("2") // 1 WBTC = $2,000 & ETH = $1,000
 const DECIMALS = 18
 const USD_DECIMALS = 18
